@@ -141,7 +141,13 @@ box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
 font-weight: 500;
 background-color: white;
 }
-
+.c-btn{
+    background-color:rgba(0, 166, 62, 1) ;
+    padding:12px 36px 12px 36px ;
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
 
 @media screen and (max-width: 570px) {
     .navber{
