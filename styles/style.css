@@ -40,6 +40,7 @@ padding: 12px; */
 .gap{
     gap: 10px;
 }
+
 .red-heart{
     display: flex;
     /* padding: 8px; */
@@ -61,6 +62,86 @@ color: white;
 border: none;
 }
 
+#logo-g{
+    width: 92px;
+    height: 92px;
+}
+.green-header{
+    width: 100%;
+    height: 239px;
+    background: linear-gradient(90.00deg, #013223,rgba(0, 103, 71, 1) 50%,rgba(1, 50, 35, 1) 100%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.call-parent{
+    padding: 120px; 
+    background-color:blanchedalmond;
+    gap: 30px;
+    
+}
+.pic-size{
+    width: 32px;
+    height: 32px;
+    margin: 14px;
+   
+}
+.pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+background: rgba(255, 227, 226, 1);
+}
+.btn-copy{
+    box-sizing: border-box;
+    border: 1px solid rgba(212, 214, 213, 1);
+    padding: 16px;
+    border-radius: 8px;
+    width: 42%;
+}
+.btn-call{
+    box-sizing: border-box;
+    border: 1px solid rgba(212, 214, 213, 1);
+    border-radius: 8px;
+    padding: 16px;
+
+    color: white;
+    background-color: rgba(0, 166, 62, 1);
+    width: 42%;
+}
+
+.card{
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-parents{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.clear{
+    width: 500px;
+    height: 1020px;
+    justify-content: space-between;
+    background-color:rgba(255, 255, 255, 1) ;
+    padding: 24px;
+    border-radius: 12px;
+box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.his-btn{
+    border: none;
+    font-size: 20px;
+font-weight: 500;
+background-color: white;
+}
+
 
 @media screen and (max-width: 570px) {
     .navber{
@@ -68,6 +149,10 @@ border: none;
         display: flex;
         flex-direction: column;
         margin: 0%;
+    }
+
+    .green-header{
+        margin-top: 50px;
     }
 }
    
