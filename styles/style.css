@@ -17,6 +17,10 @@ height: 100px;
 justify-content: space-between;
 align-items: center;
 }
+.eart{
+    border: none;
+    background-color: transparent;
+}
 .logo{
     height: 50px;
     width: 50px;
